@@ -1,0 +1,131 @@
+/* App.css */
+/* src/App.css */
+
+body {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1));
+  color: white; /* Ensure text is visible on a dark background */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  font-family: Arial, sans-serif; /* You can change this to your preferred font */
+}
+.navbar {
+  background: linear-gradient(
+    to right,
+    #fa92aa,
+    #e3fab1
+  ); /* Gradient background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  position: sticky; /* Keep navbar on top */
+  top: 0; /* Stick to the top of the page */
+  z-index: 1000; /* Ensure it is above other content */
+}
+
+.logo {
+  width: 50px; /* Logo size */
+}
+
+.navbar-container {
+  display: flex; /* Flexbox for alignment */
+  justify-content: space-between; /* Space between logo and links */
+  max-width: 1200px; /* Maximum width of the navbar */
+  margin: 0 auto; /* Center navbar */
+  padding: 1rem; /* Padding around navbar items */
+}
+
+.navbar-links {
+  display: flex; /* Horizontal layout for links */
+  gap: 2rem; /* Space between links */
+}
+
+.nav-link {
+  color: white; /* Link text color */
+  font-size: 1.5rem; /* Font size for links */
+  font-weight: bold; /* Bold text for links */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.nav-link:hover {
+  color: #5341f5; /* Change color on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+.banner {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("your-image-url.jpg");
+  background-size: cover;
+}
+
+.success-message {
+  color: green; /* Change text color */
+  font-weight: bold; /* Make text bold */
+  margin: 20px; /* Add some margin */
+  text-align: center; /* Center align text */
+}
+/* App.css */
+
+body {
+  background: linear-gradient(
+    to bottom,
+    #0f0f0f,
+    #1a1a1a
+  ); /* Gradient background for the entire page */
+  color: white; /* White text color for better contrast */
+  font-family: Arial, sans-serif; /* Optional: set a default font */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Space between title and table */
+}
+
+th {
+  background-color: #222; /* Dark background for table header */
+  color: white; /* White text color for header */
+  padding: 12px; /* Padding for table header */
+}
+
+td {
+  background-color: #333; /* Dark background for table cells */
+  color: white; /* White text color for cells */
+  padding: 10px; /* Padding for table cells */
+  border: 1px solid #444; /* Slightly lighter border for table cells */
+}
+
+h2 {
+  text-align: center; /* Center align the title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+button {
+  background-color: #e63946; /* Red background for buttons */
+  color: white; /* White text color for buttons */
+  padding: 8px 12px; /* Padding for buttons */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+  background-color: #d62839; /* Darker red on hover */
+}
+
+img {
+  border-radius: 8px; /* Slight rounding for images */
+}
+/* App.css */
+
+body {
+  background-color: #121212; /* Dark background */
+}
+
+h2,
+h3 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Add shadow to headings */
+}
+
+ul {
+  margin-left: 20px; /* Add some margin to lists */
+}
